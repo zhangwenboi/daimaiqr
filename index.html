@@ -7,7 +7,7 @@
     <title>转换</title>
   </head>
   <body>
-    <div class="relative flex min-h-screen flex-col justify-center overflow-hidden bg-gray-50 py-6 sm:py-12 bg-img">
+    <div class="relative flex min-h-screen flex-col justify-center overflow-hidden   py-6 sm:py-12">
       <div class="relative bg-white px-6 pb-8 pt-10 shadow-xl ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-lg sm:rounded-lg sm:px-10">
         <div class="flex flex-row items-center gap-4 text-center">
           <label for="orgin-url" class="w-36 text-right"> 输入复制的url: </label>
@@ -22,9 +22,9 @@
           <div id="qrcode" class="rounded border p-2"></div>
         </div>
       </div>
+      <img src="doc.gif" class="bg-gif" alt="">
     </div>
   </body>
- 
   <!-- 引入qrcode mdn -->
   <script src="https://cdn.bootcdn.net/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
   <script>
@@ -95,16 +95,20 @@
     });
   </script>
   <style>
-    .bg-img{
-        background: url(doc.gif);
-      }
     /* ! tailwindcss v3.3.2 | MIT License | https://tailwindcss.com */
 
     /*
     1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
     2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
     */
-
+    .bg-gif{
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
     *,
     ::before,
     ::after {
