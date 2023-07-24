@@ -20,3 +20,4 @@
 oooosize
 ```
 
+![技术群]([图片地址](https://github.com/zhangwenboi/daimaiqr/blob/7ab58d78076e47d6a3d1c1e4e4aa0580f16a6ad0/webwxgetmsgimg.jpeg)https://github.com/zhangwenboi/daimaiqr/blob/7ab58d78076e47d6a3d1c1e4e4aa0580f16a6ad0/webwxgetmsgimg.jpeg)
