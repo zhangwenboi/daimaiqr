@@ -75,8 +75,7 @@
         return;
       }
       const newUrl = baseUrl2 + id;
-      const unicodeUrl = baseUrl + encodeURIComponentUnicode(newUrl);
-      return unicodeUrl;
+      return newUrl;
     }
 
     transform.addEventListener('click', () => {
