@@ -15,11 +15,6 @@
 
 ## 最新教程已经更新,视频无法发布
 
-
-
-
-
-
   
 
 ## 建议
@@ -32,10 +27,14 @@
 
 同时也回收茅台 数码.
 
-## 创建了一个技术交流群,全是技术大牛,加微我啦你
+## 创建了一个技术交流群,全是技术大牛,加微我啦你,两个都可以加.
+
+人很多请不要着急
 ```
 oooosize
 ```
-
+```
+momoppp666
+```
 
 ![技术群](https://github.com/zhangwenboi/daimaiqr/blob/7ab58d78076e47d6a3d1c1e4e4aa0580f16a6ad0/webwxgetmsgimg.jpeg)
