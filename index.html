@@ -8,10 +8,7 @@
   </head>
   <body>
     <div class="relative flex min-h-screen flex-col justify-center overflow-hidden py-6 sm:py-12">
-      <div style="text-align: center">
-        <a href="https://github.com/zhangwenboi/daimaiqr/blob/main/doc.gif"> 查看教程 </a>
-      </div>
-      <p id="setup" class="text-center">一 先去大麦复制链接,点击转换使用淘宝扫码</p>
+      <p id="setup" class="text-center">一 先去大麦复制链接,点击转换</p>
       <div class="relative bg-white px-6 pb-8 pt-10 shadow-xl ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-lg sm:rounded-lg sm:px-10">
         <div class="flex flex-row items-center gap-4 text-center" id="oribox">
           <label for="orgin-url" class="w-36 text-right"> 输入复制的url: </label>
@@ -34,7 +31,6 @@
           <img src="d5c5c9f8-9f74-4c0b-b0f9-7faac39b9481.jpg" class="w-36" alt="" srcset="" />
         </div>
       </div>
-       
     </div>
   </body>
   <!-- 引入qrcode mdn -->
@@ -42,7 +38,7 @@
   <script>
     const transform = document.getElementById('transform');
     const orginUrl = document.getElementById('orgin-url');
-    const baseUrl = 'https://m.damai.cn/damai/detail/sku.html?id=';
+    const baseUrl = 'https://m.damai.cn/damai/minilogin/index.html?returnUrl=https%3A%2F%2Fm.damai.cn%2Fdamai%2Fdetail%2Fsku.html%3Fid%3D';
     const oribox = document.getElementById('oribox');
     const tbbox = document.getElementById('tbbox');
     const tbUrl = document.getElementById('tb-url');
@@ -110,7 +106,7 @@
       ++setup;
       const url = isTb ? getTbUrl(tbUrl.value) : getUrl(orginUrl.value);
       isTb = !isTb;
-      document.getElementById('setup').innerHTML = setup === 1 ? '二 使用淘宝扫码' : setup === 2 ? '三 完成,使用大麦扫码' : '一 先去大麦复制链接,点击转换使用淘宝扫码';
+      document.getElementById('setup').innerHTML = setup === 1 ? '完成,使用大麦扫码' : '一 先去大麦复制链接';
 
       let qrcodeBox = document.getElementById('qrcode');
       qrcodeBox.innerHTML = '';
